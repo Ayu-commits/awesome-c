@@ -162,8 +162,7 @@ Compilers, as well as compiler- and compilation-related tooling.
 * [TurboRLE][484] - Most efficient run-length encoding. [``GPL-2.0-or-later``][GPL-2.0-or-later]
 * [zip][520] - Really really small zip archive processing library.
   [``Unlicense``][Unlicense]
-* [Zlib][230] - Massively spiffy yet delicately unobtrusive compression
-  library. [``BSD-3-Clause``][BSD-3-Clause]
+* [Zlib][230] - Massively spiffy yet delicately unobtrusive compression library. [``BSD-3-Clause``][BSD-3-Clause]
 * [libarchive][548] - libarchive is a portable, efficient C library that can read and write streaming archives in a variety of formats.
   [``BSD-3-Clause``][BSD-3-Clause]
 * [zlib-ng][1] - Zlib replacement with optimizations for 'next-generation'
@@ -376,7 +375,7 @@ Big libraries that provide data structures and other stuff you expect of a
 
 ## Game Programming ##
 
-Engines, libraries and other helpful things specifically for making games.
+Engines, libraries, and other helpful things specifically for making games.
 
 * [Allegro][48] - Cross-platform, video game development and multimedia
   library. [``Zlib``][Zlib]
@@ -421,7 +420,7 @@ Engines, libraries and other helpful things specifically for making games.
 ## Graphics ##
 
 Programmatic manipulation of graphics in C; if you want to make a GUI, the
-Graphical User Interface section has what you need.
+The graphical User Interface section has what you need.
 
 * [AssetKit][571] 🎨 3D asset importer/exporter/util library based on COLLADA/glTF specs [``MIT``][MIT]
 * [Cairo][384] - 2D graphics library. [``LGPL-2.1-only``][LGPL-2.1-only] or [``MPL-1.1``][385].
@@ -455,7 +454,7 @@ Graphical User Interface section has what you need.
 
 ## Graphical User Interface ##
 
-Widget toolkits, or things meant to be used in a similar way to them.
+Widget toolkits or things meant to be used in a similar way to them.
 
 * [GTK+][14] - Cross-platform widget toolkit. [``LGPL-2.1-only``][LGPL-2.1-only]
 * [IUP][16] - Another cross-platform widget toolkit. [``MIT``][MIT]
@@ -573,7 +572,7 @@ to C programming.
 ### Advanced books ###
 
 * [Expert C Programming: Deep C Secrets][55] - Interesting, in-depth and
-  entertaining look at the innards of C.
+  an entertaining look at the innards of C.
 
 ## Lexing and Parsing ##
 
@@ -721,8 +720,7 @@ comprehensive and high-level, you may want the Web Frameworks section.
 * [KISS FFT][71] - Simple fast Fourier transform library. [``BSD-3-Clause``][BSD-3-Clause]
 * [LAPACKE][133] - Interface to [LAPACK][134]. [``BSD-3-Clause``][BSD-3-Clause]
 * [LibTomMath][461] - Portable, number-theoretic, multiple-precision integer
-  library. Supports algebra, digit manipulation, modular reductions, and various
-  number-theoretic routines. Public domain.
+  library. Supports algebra, digit manipulation, modular reductions, and various number-theoretic routines. Public domain.
 * [LibTomPoly][463] - Polynomial-related maths library. Public domain.
 * [PARI/GP][256] - Computer algebra system for number theory; includes a
   compiler to C. [``GPL-2.0-or-later``][GPL-2.0-or-later]
@@ -802,8 +800,7 @@ the Frameworks section.
 * [Snippets][220] - Useful code snippets and header-only libraries.
   Public domain.
 * [stb][114] - Range of single-file libraries. Public domain.
-* [tinyheaders][108] - Collection of header-only libraries, primarily oriented
-  toward game development. [``Zlib``][Zlib]
+* [tinyheaders][108] - Collection of header-only libraries, primarily oriented toward game development. [``Zlib``][Zlib]
 
 ## Standard Libraries ##
 
@@ -918,7 +915,7 @@ This includes libraries for things like XML, JSON, CSV, and other similar format
 ## Text Editor Extensions ##
 
 While practically any decent programmer's text editor supports C, there are some
-extensions that make it more pleasant. These are labelled by editor.
+extensions that make it more pleasant. These are labeled by the editor.
 
 * [CCompletion][92] - Notepad++ autocompletion plugin. Works with all
   identifiers recognized by Ctags. This is a download link. [``GPL-2.0-or-later``][GPL-2.0-or-later]
@@ -966,11 +963,9 @@ libraries or compilers.
   [``LGPL-3.0-or-later``][LGPL-3.0-or-later]
 * [Highlight][333] - Converts source code to formatted text with nice
   highlighting. [``GPL-3.0-only``][GPL-3.0-only]
-* [include-what-you-use][289] - Helps find unecessary inclusions and make
-  suggestions for fixing them. Based on LLVM/Clang (and only works with
-  it). [``NCSA``][NCSA]
-* [indent][315] - Formats C source code automatically to make it easier to
-  read. Also converts from one style of source to another. [``GPL-3.0-or-later``][GPL-3.0-or-later]
+* [include-what-you-use][289] - Helps find unnecessary inclusions and make
+  suggestions for fixing them. Based on LLVM/Clang (and only works with it). [``NCSA``][NCSA]
+* [indent][315] - Formats C source code automatically to make it easier to read. Also converts from one style of the source to another. [``GPL-3.0-or-later``][GPL-3.0-or-later]
 * [SMACK][500] - Modular software verification toolchain and a self-contained
   software verifier. Currently only works with programs compiled using Clang.
   [``MIT``][MIT]
@@ -1098,13 +1093,11 @@ application in C.
 Technologies designed to bring Windows into the 21st century with respect to
 support for C.
 
-* [Cygwin][253] - Designed to emulate a POSIX-compatible environment extensively
-  under Windows. [Various licenses, all open source][254].
+* [Cygwin][253] - Designed to emulate a POSIX-compatible environment extensively under Windows. [Various licenses, all open source][254].
 * [MinGW-w64][287] - Minimalist environment for C development on Windows with
-  64 bit support. [Various licenses, all open source][252].
+  64-bit support. [Various licenses, all open source][252].
 * [MSYS2][428] - Minimal SYStem 2; aims to provide support for a POSIX
-  environment on Windows, with a package manager based on Arch Linux's
-  pacman. Packages have individual licenses, otherwise, as MinGW and Cygwin.
+  environment on Windows, with a package manager based on Arch Linux's Pacman. Packages have individual licenses, otherwise, like MinGW and Cygwin.
 
 
 [AFL-2.1]: https://spdx.org/licenses/AFL-2.1.html
